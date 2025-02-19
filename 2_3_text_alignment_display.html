@@ -92,7 +92,7 @@
     <!--#####################START HERE######################-->
 
     <!-- JUSTIFY -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae asperiores dolorem accusamus dolor eligendi,
+    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae asperiores dolorem accusamus dolor eligendi,
       unde adipisci
       a odio, quas aperiam tempora earum delectus magnam quia veritatis in! Natus quibusdam dolores architecto magni
       rem!
@@ -109,20 +109,20 @@
     <br>
 
     <!-- ALIGNMENT -->
-    <p>Text aligned left</p>
-    <p>Text aligned center</p>
-    <p>Text aligned right</p>
+    <p class="text-start">Text aligned left</p>
+    <p class="text-center">Text aligned center</p>
+    <p class="text-end">Text aligned right</p>
 
     <!-- RESPONSIVE ALIGN -->
-    <p>Right aligned on small or larger</p>
-    <p>Right aligned on medium or larger</p>
-    <p>Right aligned on large or larger</p>
-    <p>Right aligned on xl or larger</p>
+    <p class="text-sm-end">Right aligned on small or larger</p>
+    <p class="text-md-end">Right aligned on medium or larger</p>
+    <p class="text-lg-end">Right aligned on large or larger</p>
+    <p class="text-xl-end">Right aligned on xl or larger</p>
 
-    <p>Center aligned text on small or larger</p>
-    <p>Center aligned text on medium or larger</p>
-    <p>Center aligned text on large or wider</p>
-    <p>Center aligned text on extra large or wider</p>
+    <p class="text-sm-center">Center aligned text on small or larger</p>
+    <p class="text-md-center">Center aligned text on medium or larger</p>
+    <p class="text-lg-center">Center aligned text on large or wider</p>
+    <p class="text-xl-center">Center aligned text on extra large or wider</p>
 
     <br>
     <br>
@@ -131,18 +131,18 @@
     <!-- Zie extra voorbeelden op https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align -->
     <div style="background-color: red;">
       <span>no class</span>
-      <span class="">middle</span>
-      <span class="">top</span>
-      <span class="">bottom</span>
-      <!-- <img src="https://pbs.twimg.com/profile_images/942756049697804290/kYuSN1wv_400x400.jpg" alt="" srcset="" height="50" class=""> -->
-      <!-- <img src="https://pbs.twimg.com/profile_images/942756049697804290/kYuSN1wv_400x400.jpg" alt="" srcset="" height="100">  -->
+      <span class="align-middle">middle</span>
+      <span class="align-top">top</span>
+      <span class="align-bottom">bottom</span>
+      <img class="align-top" src="https://pbs.twimg.com/profile_images/942756049697804290/kYuSN1wv_400x400.jpg" alt="" srcset="" height="50" class="">
+      <img src="https://pbs.twimg.com/profile_images/942756049697804290/kYuSN1wv_400x400.jpg" alt="" srcset="" height="100"> 
     </div>
 
     <table>
       <tr>
-        <td class=""><img src="https://pbs.twimg.com/profile_images/942756049697804290/kYuSN1wv_400x400.jpg" alt=""
+        <td class="align-top"><img src="https://pbs.twimg.com/profile_images/942756049697804290/kYuSN1wv_400x400.jpg" alt=""
             srcset="" height="50"></td>
-        <td class=""><img src="https://pbs.twimg.com/profile_images/942756049697804290/kYuSN1wv_400x400.jpg" alt=""
+        <td class="align-bottom"><img src="https://pbs.twimg.com/profile_images/942756049697804290/kYuSN1wv_400x400.jpg" alt=""
             srcset="" height="50"></td>
         <td><img src="https://pbs.twimg.com/profile_images/942756049697804290/kYuSN1wv_400x400.jpg" alt="" srcset=""
             height="100"></td>
@@ -153,24 +153,24 @@
     <br>
 
     <!-- TURN BLOCK TO INLINE -->
-    <h1>Hello</h1>
-    <h1>Goodbye</h1>
+    <h1 class="d-inline">Hello</h1>
+    <h1 class="d-inline">Goodbye</h1>
 
     <br>
     <br>
 
     <!-- TURN INLINE TO BLOCK -->
-    <span>Block</span>
+    <span class="d-block">Block</span>
 
     <br>
     <br>
 
     <!-- INLINE BLOCK -->
-    <div>
+    <div class="d-inline-block">
       <h3>Hello</h3>
       This is inline
     </div>
-    <div>
+    <div class="d-inline-block">
       <h3>Hello</h3>
       This is inline
     </div>
